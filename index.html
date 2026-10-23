@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#103D30">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="BerufsNavi interactive MVP prototype for mobile usability testing.">
+  <title>BerufsNavi — UX Test</title>
+  <style>
+    /* No site header, navigation, decorative margins, or external dependencies. */
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #F7F1E6;
+    }
+    #prototype {
+      display: block;
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;      /* Fallback for browsers without dynamic viewport units */
+      height: 100dvh;   /* Available visible height on mobile */
+      border: 0;
+      background: #F7F1E6;
+    }
+  </style>
+</head>
+<body>
+  <!--
+    BerufsNavi Figma prototype — starts at Screen 0 (Welcome / Goal & Journey).
+    This is a LIVE Figma embed: changing the Figma prototype updates this site.
+
+    If you later change Figma files or flows, replace the URL below with
+    the URL from Figma: Present -> Share prototype -> Get embed code.
+    Figma sharing must allow the testers to view the prototype.
+  -->
+  <iframe
+    id="prototype"
+    title="BerufsNavi interactive prototype"
+    src="https://embed.figma.com/proto/rvWobsNTBk0PiMrS5e5skl?node-id=523-3&amp;starting-point-node-id=523%3A3&amp;embed-host=berufsnavi-github-pages&amp;device-frame=false&amp;footer=false&amp;scaling=fit-width&amp;viewport-controls=false&amp;hotspot-hints=false"
+    allow="fullscreen"
+    allowfullscreen
+    referrerpolicy="strict-origin-when-cross-origin"
+  ></iframe>
+</body>
+</html>
